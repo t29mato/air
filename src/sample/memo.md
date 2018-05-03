@@ -25,6 +25,8 @@ create table `air` (
 
 https://www.webprofessional.jp/introduction-chart-js-2-0-six-examples/
 
+・git
+https://techacademy.jp/magazine/6235
 
 https://hacknote.jp/archives/26817/
 
