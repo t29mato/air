@@ -19,6 +19,7 @@ ENV COMPOSER_HOME /composer
 ENV PATH $PATH:/composer/vendor/bin
 
 # Install laravel installer
+RUN composer config -g repositories.packagist composer https://packagist.jp
 RUN composer global require "laravel/installer"
 
 # PHP's DB setting
