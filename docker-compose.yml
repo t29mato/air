@@ -15,6 +15,12 @@ services:
     container_name: "laravel-01-php"
     volumes:
       - ./src:/src
+    environment:
+      APP_NAME: Laravel
+      APP_ENV: local
+      APP_KEY: base64:4l3U2P/rOYV28NWwra18Ntqk5uYAR9f790/J5fE5gso=
+      APP_DEBUG: "true"
+      APP_URL: http://localhost
 
   mysql:
     image: mysql
@@ -22,7 +28,7 @@ services:
     restart: always
     environment:
       MYSQL_DATABASE: root
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_PASSWORD: root
     ports: 
       - 13306:3306
     volumes:

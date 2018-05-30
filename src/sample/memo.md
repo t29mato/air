@@ -35,3 +35,6 @@ https://qiita.com/IganinTea/items/aec8f2b15b203946a2c4
 https://www.marinediving.com/skill/basic_skill/26_air_consumption/
 
 https://nextat.co.jp/staff/archives/129
+
+さくらVPSでパーミッションを775から777に変えたら、laravelエラーページが表示されるようになった。
+https://stackoverflow.com/questions/45206228/500-internal-server-error-with-laravel-docker?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
