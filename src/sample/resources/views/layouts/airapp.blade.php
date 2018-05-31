@@ -27,7 +27,8 @@
                 <div class="navbar-nav">
                     <a class="nav-item nav-link @if (Request::path() == '/') active @endif" href="/">トップ</a>
                     <a class="nav-item nav-link @if (Request::path() == 'calculate') active @endif" href="/calculate">計算</a>
-                    <a class="nav-item nav-link disabled" href="#">準備中...</a>
+                    <a class="nav-item nav-link @if (Request::path() == 'analytics') active @endif" href="/analytics">みんなのデータ</a>
+                    <a class="nav-item nav-link disabled" href="">準備中...</a>
                 </div>
             </div>
         </nav>
